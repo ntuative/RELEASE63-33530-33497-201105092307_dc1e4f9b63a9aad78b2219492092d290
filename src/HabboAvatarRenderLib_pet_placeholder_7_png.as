@@ -1,0 +1,15 @@
+package
+{
+   import mx.core.BitmapAsset;
+   
+   [Embed(source = "/images/HabboAvatarRenderLib_pet_placeholder_7_png.png")]
+   public class HabboAvatarRenderLib_pet_placeholder_7_png extends BitmapAsset
+   {
+       
+      
+      public function HabboAvatarRenderLib_pet_placeholder_7_png()
+      {
+         super();
+      }
+   }
+}

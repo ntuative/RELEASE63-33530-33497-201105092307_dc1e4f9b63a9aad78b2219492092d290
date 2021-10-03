@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<manifest>
+    <component class="com.sulake.habbo.quest.HabboQuestEngine" version="0.0" >
+        <interface iid="com.sulake.iid.IIDHabboQuestEngine" />
+        <assets>
+            <asset mimeType="image/png" name="icon_quest_hidden"/>
+            <asset mimeType="text/xml" name="Campaign"/>
+            <asset mimeType="text/xml" name="CampaignCompleted"/>
+            <asset mimeType="text/xml" name="CampaignCompletedDialog"/>
+            <asset mimeType="text/xml" name="EntryArrows"/>
+            <asset mimeType="text/xml" name="Quest"/>
+            <asset mimeType="text/xml" name="QuestDetails"/>
+            <asset mimeType="text/xml" name="Quests"/>
+            <asset mimeType="text/xml" name="QuestTracker"/>
+            <asset mimeType="text/xml" name="QuestEntry"/>
+            <asset mimeType="text/xml" name="QuestHelp"/>
+            <asset mimeType="text/xml" name="QuestCompletedDialog"/>
+            <asset mimeType="text/xml" name="Achievements"/>
+            <asset mimeType="text/xml" name="AchievementCategory"/>
+            <asset mimeType="text/xml" name="Achievement"/>
+        </assets>
+    </component>
+</manifest>

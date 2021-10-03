@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="Achievements" width="394" height="297" version="0.1" uid="ACC2CB15-25C1-8B2A-2D8C-D360F03876EA">
+  <window>
+    <frame x="0" y="0" width="394" height="297" params="32769" style="3" name="quest_main_window" caption="%24%7Binventory.achievements%7D" color="0xff418db0">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <container x="8" y="8" width="370" height="10" params="144" style="0" name="categories_cont" visible="false"/>
+        <container x="0" y="0" width="388" height="77" params="144" style="0" name="achievements_header_cont" visible="false">
+          <children>
+            <background x="0" y="0" width="388" height="77" params="2192" style="0" color="0xffff7d7da6" background="true"/>
+            <bitmap x="9" y="3" width="84" height="72" params="16" style="0" name="category_pic_bitmap"/>
+            <html x="98" y="14" width="285" height="24" params="129" style="0" name="category_name_txt" caption="Category%20Name%20Placeholder">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="20" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+            <html x="98" y="45" width="244" height="24" params="129" style="0" name="achievement_score_txt" caption="Your%20achievement%20score%3A%20XXX">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="13" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+          </children>
+        </container>
+        <container x="10" y="0" width="367" height="10" params="144" style="0" name="achievements_cont" visible="false"/>
+        <border x="10" y="0" width="367" height="122" params="144" style="0" name="achievement_cont" color="0x0cccccc">
+          <children>
+            <html x="100" y="12" width="258" height="17" params="129" style="0" name="achievement_name_txt" caption="Achievement%20Name%20Placeholder">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+            <bitmap x="10" y="10" width="85" height="89" params="16" style="0" name="achievement_pic_bitmap"/>
+            <html x="100" y="31" width="258" height="47" params="129" style="0" name="achievement_desc_txt" caption="Achievement%20Desc%3A%20pasdsad%20sadaddsad%20sadsa%20as%20dasd%20sad%20asd%20sada%20sdas%20das%20dsad%20sad%20asd%20asd%20ad%20ada%20sdas%20dsa%20das%20dsa%20dsad%20jhg%20jhg%20jh%20gjh%20gjh%20g">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+            <html x="100" y="97" width="258" height="19" params="129" style="0" name="progress_txt" caption="Progress%201/20%20blah%20items">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="editable" value="false" type="Boolean"/>
+                <var key="selectable" value="false" type="Boolean"/>
+              </variables>
+            </html>
+            <text x="99" y="78" width="199" height="17" params="1040" style="0" name="reward_caption_txt" caption="%24%7Bachievements.details.reward%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="150" y="78" width="23" height="17" params="1040" style="0" name="reward_amount_txt" caption="200">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <bitmap x="169" y="78" width="17" height="18" params="1040" style="0" name="currency_bitmap" id="9999"/>
+          </children>
+        </border>
+        <container x="10" y="0" width="367" height="29" params="144" style="0" name="achievements_footer_cont" visible="false">
+          <children>
+            <button_thick x="0" y="0" width="108" height="29" params="131089" style="3" name="back_button" caption="%24%7Bachievements.back%7D" width_min="108" width_max="108"/>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

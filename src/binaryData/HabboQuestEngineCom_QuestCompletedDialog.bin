@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="achievement_notification" width="426" height="215" version="0.1" uid="72DB6268-0205-9C7B-E630-71B2F9CD8B46">
+  <window>
+    <frame x="0" y="5" width="426" height="215" params="33025" style="3" caption="%24%7Bquests.completed.caption%7D" color="0xff418db0">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <background x="1" y="0" width="424" height="117" params="2192" style="0" color="0xffff7d7da6" background="true"/>
+        <bitmap x="2" y="2" width="125" height="114" params="16" style="0" name="reward_icon"/>
+        <html x="138" y="22" width="283" height="24" params="129" style="0" name="congrats_txt" caption="${quests.completed.congrats}">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="20" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+            <var key="editable" value="false" type="Boolean"/>
+            <var key="selectable" value="false" type="Boolean"/>
+          </variables>
+        </html>
+        <html x="139" y="48" width="258" height="31" params="129" style="0" name="desc_txt" caption="desc_txt%20jhg%20kjh%20gjkhg%20kjh%20gjkh%20gkjh%20gkjh%20gkjh%20gkjhg%20kjhg%20kjh">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="editable" value="false" type="Boolean"/>
+            <var key="selectable" value="false" type="Boolean"/>
+          </variables>
+        </html>
+        <html x="138" y="74" width="285" height="37" params="129" style="0" name="reward_txt" caption="reward_txt">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="editable" value="false" type="Boolean"/>
+            <var key="selectable" value="false" type="Boolean"/>
+          </variables>
+        </html>
+        <button_thick x="266" y="138" width="141" height="29" params="132177" style="3" name="next_quest_button" caption="%24%7Bquests.completed.next%7D" width_min="141" width_max="141"/>
+
+        <region x="19" y="145" width="20" height="18" params="131089" style="0" name="catalog_link_region" treshold="0">
+          <children>
+            <text x="0" y="0" width="20" height="17" params="4194320" style="0" name="catalog_link_txt" caption="catalog_link_txt">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,23 @@
+package com.sulake.habbo.communication.messages.outgoing.marketplace
+{
+   import com.sulake.core.communication.messages.IMessageComposer;
+   
+   public class GetMarketplaceCanMakeOfferComposer implements IMessageComposer
+   {
+       
+      
+      public function GetMarketplaceCanMakeOfferComposer()
+      {
+         super();
+      }
+      
+      public function getMessageArray() : Array
+      {
+         return new Array();
+      }
+      
+      public function dispose() : void
+      {
+      }
+   }
+}
